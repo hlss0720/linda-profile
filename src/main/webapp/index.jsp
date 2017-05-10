@@ -19,7 +19,7 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">成长历程 </a></li>
 					<li><a href="music.html">我的音乐 </a></li>
-					<li><a href="#">我的相册</a></li>
+					<li><a href="gallery.html">我的相册</a></li>
 					<li><a href="map.html">我的地图</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的亲人 <span class="caret"></span></a>
 						<ul class="dropdown-menu">

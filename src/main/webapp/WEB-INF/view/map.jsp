@@ -16,9 +16,9 @@
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">成长历程 </a></li>
-					<li><a href="music.html">我的音乐 </a></li>
-					<li><a href="#">我的相册</a></li>
-					<li><a href="map.html">我的地图</a></li>
+					<li><a href="music">我的音乐 </a></li>
+					<li><a href="gallery">我的相册</a></li>
+					<li class="active"><a href="#">我的地图</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">我的亲人 <span class="caret"></span></a>
@@ -51,7 +51,7 @@
 		</div>
 	</nav>
 
-	<div id="googleMap">该区域不支持google地图</div>
+	<div id="googleMap"><span>该区域不支持google地图</span></div>
 	<%@include file="../../common_footer.jsp"%>
 </body>
 </html>

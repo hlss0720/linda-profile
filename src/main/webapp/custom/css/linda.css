@@ -989,13 +989,17 @@ footer {
 }
 
 #googleMap {
+	align: center;
 	width: 80%;
 	height: 90%;
 	margin-top: 70px;
 	margin-left: 300px;
 }
 
-
+#googleMap span{
+	font-size: 14px;
+	font-family: 'Source Sans Light', 'Apple LiSung Light', 'STHeiti Light', 'SimSun', sans-serif;
+}
 
 body, input, textarea, h1, h2, h3, h4 {
     font-family: 'Source Sans Light', 'Apple LiSung Light', 'STHeiti Light', 'SimSun', sans-serif;

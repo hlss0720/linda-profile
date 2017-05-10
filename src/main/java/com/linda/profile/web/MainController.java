@@ -16,4 +16,10 @@ public class MainController {
 	public String showMap(ModelMap model) {
 		return "map";
 	}
+	
+	
+	@RequestMapping("/gallery")
+	public String showGallery(ModelMap model) {
+		return "gallery";
+	}
 }
