@@ -1,22 +1,10 @@
-<!DOCTYPE html>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="icon" href="assert/image/favicon.ico" />
-<link rel="stylesheet" href="custom/css/linda.css" type="text/css" />
-<script src="custom/js/linda.js" type="text/javascript"></script>
-
-
 <title>吴优 · Linda Wu</title>
 </head>
 <body>
-
+<%@include file="common_header.jsp" %>
 	<header class="header">
 		<div class="header-background"></div>
 		<div class="title">
@@ -25,14 +13,14 @@
 		</div>
 	</header>
 
-
 	<nav class="navbar navbar-inverse navbar-fixed-top" role='navigation'>
 		<div class="container-fluid">
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">成长历程 </a></li>
-					<li><a href="myMusics.html">我的音乐 </a></li>
+					<li><a href="music.html">我的音乐 </a></li>
 					<li><a href="#">我的相册</a></li>
+					<li><a href="map.html">我的地图</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我的亲人 <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">爸爸--吴文军</a></li>
@@ -82,6 +70,9 @@
 			</div>
 			<div class="item">
 				<img src="assert/image/2.png" alt="Second slide" class="img-rounded">
+				<div class="carousel-caption">
+					<p class="text-info">这可是我最美笑脸，爸爸妈妈好喜欢</p>
+				</div>
 			</div>
 			<div class="item">
 				<img src="assert/image/3.png" alt="Third slide" class="img-circle">
@@ -91,6 +82,9 @@
 			</div>
 			<div class="item">
 				<img src="assert/image/4.png" alt="fouth slide">
+				<div class="carousel-caption">
+					<p class="text-info">这可是我最美笑脸，爸爸妈妈好喜欢</p>
+				</div>
 			</div>
 		</div>
 		<a class="carousel-control left" href="#myCarousel" data-slide="prev" role="button"> <span class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only"></span>
@@ -100,7 +94,6 @@
 
 	<hr class="divider">
 
-	<div id="googleMap">My map will go here</div>
 
 	<footer>
 		<p class="pull-right">
@@ -108,8 +101,6 @@
 		</p>
 		<p>copyRight@2017</p>
 	</footer>
-	<script src="jquery/jquery-1.12.4.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5s6UurjWGA-IINzM1TMKc_pt0tM1lknc&callback=myMap"></script>
+<%@include file="common_footer.jsp" %>
 </body>
 </html>

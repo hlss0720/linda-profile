@@ -7,8 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 
-	 @RequestMapping("/myMusics")
+	@RequestMapping("/music")
 	public String showMessage(ModelMap model) {
-		return "myMusics";
+		return "music";
+	}
+
+	@RequestMapping("/map")
+	public String showMap(ModelMap model) {
+		return "map";
 	}
 }
