@@ -99,7 +99,7 @@
 		<p class="pull-right">
 			<a href="#top">回到顶部</a>
 		</p>
-		<p>copyRight@2017</p>
+		<p>&copy 2017  Linda Wu</p>
 	</footer>
 <%@include file="common_footer.jsp" %>
 </body>
